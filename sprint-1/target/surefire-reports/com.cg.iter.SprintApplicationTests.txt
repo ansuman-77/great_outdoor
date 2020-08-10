@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.iter.SprintApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 40.383 s <<< FAILURE! - in com.cg.iter.SprintApplicationTests
+contextLoads  Time elapsed: 0.035 s  <<< ERROR!
+java.lang.annotation.AnnotationFormatError: Duplicate annotation for class: interface org.springframework.context.annotation.Bean: @org.springframework.context.annotation.Bean(name={}, autowireCandidate=true, initMethod="", destroyMethod="(inferred)", value={}, autowire=NO)
+
